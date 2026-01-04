@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Book base -->
+  <rect x="12" y="8" width="40" height="48" rx="2" fill="url(#gradient1)"/>
+  <rect x="12" y="8" width="40" height="48" rx="2" fill="url(#gradient2)" opacity="0.3"/>
+  
+  <!-- Book pages -->
+  <line x1="20" y1="18" x2="44" y2="18" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+  <line x1="20" y1="24" x2="40" y2="24" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+  <line x1="20" y1="30" x2="44" y2="30" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+  
+  <!-- AI Sparkles -->
+  <circle cx="38" cy="20" r="2" fill="#a78bfa"/>
+  <circle cx="42" cy="26" r="1.5" fill="#8b5cf6"/>
+  <circle cx="36" cy="32" r="1.5" fill="#a78bfa"/>
+  
+  <!-- Brain/AI symbol -->
+  <path d="M 32 12 Q 28 10 26 12 Q 24 14 26 16 Q 28 18 30 16 Q 32 14 34 16 Q 36 18 38 16 Q 40 14 38 12 Q 36 10 32 12" 
+        fill="#8b5cf6" opacity="0.8"/>
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
+
