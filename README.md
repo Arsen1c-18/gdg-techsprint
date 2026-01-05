@@ -15,61 +15,31 @@ An AI-powered study helper that explains any topic simply and clearly for studen
 
 ### Prerequisites
 
-- Node.js 18+ and npm
+- Node.js 18+ and a JavaScript package manager (npm, pnpm, or yarn)
 
 ### Installation
 
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Create a `.env` file in the root directory:
-   ```
-   VITE_GEMINI_API_KEY=your_api_key_here
-   ```
-
-4. Get your API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
-
-5. Run the development server:
-   ```bash
-   npm run dev
-   ```
+1. Clone the repository to your local machine.
+2. Install the project's dependencies using your preferred package manager.
+3. Create a `.env` file in the root directory and set `VITE_GEMINI_API_KEY` to your API key.
+4. Obtain an API key from Google AI Studio: https://makersuite.google.com/app/apikey
+5. Start the development server using your package manager's dev command.
 
 ## Deployment to Vercel
 
 ### Steps:
 
-1. **Push your code to GitHub** (if not already done)
-
-2. **Import project to Vercel:**
-   - Go to [vercel.com](https://vercel.com)
-   - Click "New Project"
-   - Import your GitHub repository
-
-3. **Configure Environment Variables:**
-   - In Vercel project settings, go to "Environment Variables"
-   - Add: `VITE_GEMINI_API_KEY` with your API key value
-   - Make sure to add it for all environments (Production, Preview, Development)
-
-4. **Deploy:**
-   - Vercel will automatically detect Vite and deploy
-   - The `vercel.json` file is already configured
+1. Push your code to GitHub (if not already done).
+2. Import the project to Vercel via the "New Project" flow and select this repository.
+3. Configure environment variables in the Vercel project settings: add `VITE_GEMINI_API_KEY` with your API key value for the environments you need (Production, Preview, Development).
+4. Deploy — Vercel will detect Vite and handle the build automatically.
 
 ### Important Notes:
 
-- ✅ `vite` is now in `dependencies` (required for Vercel build)
+- ✅ `vite` is listed in `dependencies` (required for Vercel build)
 - ✅ `vercel.json` is configured for proper routing
-- ✅ Environment variables must be set in Vercel dashboard
+- ✅ Environment variables must be set in the Vercel dashboard
 - ✅ The build should work automatically
-
-## Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
 
 ## Tech Stack
 
